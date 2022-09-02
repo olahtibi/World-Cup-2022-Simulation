@@ -1,12 +1,12 @@
 <html>
     <head>
-        <script type="text/javascript" src="team.js?v=0000"></script>
-        <script type="text/javascript" src="groupEntry.js?v=0000"></script>
-        <script type="text/javascript" src="group.js?v=0000"></script>
-        <script type="text/javascript" src="knockout.js?v=0000"></script>
-        <script type="text/javascript" src="tournament.js?v=0000"></script>
-        <script type="text/javascript" src="config.js?v=0000"></script>
-        <script type="text/javascript" src="code.js?v=0000"></script>
+        <script type="text/javascript" src="team.js?v=0001"></script>
+        <script type="text/javascript" src="groupEntry.js?v=0001"></script>
+        <script type="text/javascript" src="group.js?v=0001"></script>
+        <script type="text/javascript" src="knockout.js?v=0001"></script>
+        <script type="text/javascript" src="tournament.js?v=0001"></script>
+        <script type="text/javascript" src="config.js?v=0001"></script>
+        <script type="text/javascript" src="code.js?v=0001"></script>
     </head>
     <body>
         <h1>World Cup 2022 - Monte Carlo simulation</h1>
@@ -16,10 +16,10 @@
                 <option>10</option>
                 <option>100</option>
                 <option>1000</option>
-                <option>10000</option>
+                <option selected="true">10000</option>
                 <option>100000</option>
             </select>
-            <button onclick="startSimulation()">Run</button>
+            <button id="butRun" onclick="startSimulation()">Run</button>
             <button id="butPrev" onclick="prevSimulation()" disabled="true">Previous</button>
             <label id="simulationNumber">1</label>
             <button id="butNext" onclick="nextSimulation()" disabled="true">Next</button>

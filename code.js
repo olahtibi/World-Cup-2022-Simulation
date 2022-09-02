@@ -9,6 +9,7 @@ function startSimulation() {
     }
     document.simulations[simulationNumber - 1].render();
     document.getElementById("butNext").disabled = false;
+    document.getElementById("butRun").disabled = true;
     summarize();
 }
 
